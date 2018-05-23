@@ -1,0 +1,117 @@
+/*
+LEGEND
+======
+
+PAGE LAYOUT
+IMAGES
+ICONS
+COMMENTS
+ */
+
+ /* USE EVERYWHERE */
+#background-image {
+    /* background-image: url("../../images/recipe-bg.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* PAGE LAYOUT */
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+/* PAGE TITLE */
+#title {
+    padding-left: 15px;
+}
+
+/* IMAGES */
+#main {
+    width: 100%;
+}
+
+.thumbnail-images-container {
+    margin: 0px;
+}
+
+.thumbnail-images-container>.col-sm-4 {
+    padding-left: 0;
+}
+
+.thumbnail-container {
+    width: 10em;
+    display: inline-block;
+}
+
+.thumbnail {
+    width: 100%;
+    padding: 1rem 0rem 0rem 0rem;
+    border: none;
+}
+
+.main-img-container {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+/* EMAIL SECTION */
+#email_recipe {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* ICONS */
+.icon-img-container {
+    width: 2em;
+    display: inline-block;
+}
+
+.icon {
+    width: 100%;
+}
+
+.icon-text-container {
+    padding: 0;
+}
+
+.icon-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 900px) {
+    .thumbnail-container {
+        width: 5rem;
+    }
+}
+@media (max-width: 768px) {
+    #recipe_descr {
+        font-size: 15px;
+    }
+}
+@media (max-width: 576px) {
+    .icon-container {
+        display: flex;
+        flex-flow: column;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .row-container{
+        flex-flow: row;
+    }
+    .icon-descr-container {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .main-image-thumbnail-container{
+        width: 80%;
+        margin: 0 auto;
+    }
+}

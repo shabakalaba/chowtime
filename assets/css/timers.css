@@ -1,0 +1,47 @@
+#timers-tg {
+	font-weight: bold;
+	color: black;
+	cursor: pointer;
+}
+
+#storedTimers ul {
+	list-style: none;
+}
+
+.hidden {
+	position: absolute;
+	left: -10000px;
+}
+
+.timer {
+	margin: 1em auto;
+}
+
+.timer div {
+	padding: 0;
+	margin: 0;
+}
+
+.timer-btn:hover, .timer-btn {
+	background-color: lightgray;
+	color: black;
+}
+
+.start-time {
+	background-color: green;
+	color: white;
+}
+
+.stop-time {
+	background-color: red;
+	color: white;
+}
+
+.del-time {
+	background-color: lightgray;
+	color: unset;
+}
+
+.timer sub {
+	font-size: 0.5em;
+}

@@ -1,0 +1,77 @@
+/* USE EVERYWHERE */
+.hidden {
+    display: none !important;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.map-filter-container {
+    margin-bottom: 2rem;
+}
+
+/* HEADING */
+.title-blurb-container {
+    text-align: center;
+}
+
+/* MAP */
+#map {
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.mainRecipeTitle {
+    color: rgb(199, 74, 65);
+}
+
+/* FILTER BAR */
+.layout {
+    flex-flow: column;
+}
+
+.filter-bar-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 500px;
+}
+
+.slider-horizontal {
+    width: 200px;
+}
+
+#in_distance {
+    width: 50%;
+    display: inline-block;
+}
+
+.filter-icon-container {
+    width: 35px;
+    display: inline-block;
+}
+
+.filter-text {
+    display: none;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 16px;
+    }
+    .form-wrapper {
+        display: flex;
+    }
+    .filter-text {
+        display: inline;
+    }
+}
